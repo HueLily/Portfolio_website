@@ -1,9 +1,10 @@
 import './App.css'
+import "bootstrap/dist/css/bootstrap.min.css";
 import Banner from './components/Banner'
 import Contact from './components/Contact'
 import Experience from './components/Experience'
 import Leadership from './components/Leadership'
-import Navbar from './components/Navbar'
+import NavigationBar from './components/Navbar'
 import Project from './components/Project'
 import Qualification from './components/Qualification'
 
@@ -11,13 +12,13 @@ function App() {
 
   return (
     <div className="App-container">
-      <Navbar />
-      <Banner />
+      <NavigationBar />
+      {/* <Banner />
       <Qualification />
       <Experience />
       <Project />
       <Leadership />
-      <Contact />
+      <Contact /> */}
     </div>
   )
 }
