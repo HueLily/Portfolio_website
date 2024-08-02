@@ -17,6 +17,8 @@ body {
   background-color: var(--background-color);
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -46,14 +48,6 @@ button {
   background-color: transparent;
 }
 
-input:focus, textarea:focus, select:focus {
-  outline: none;
-}
-
-.App {
-  text-align: center;
-}
-
 
 @media (min-width: 1700px){
   main .container {
@@ -61,3 +55,4 @@ input:focus, textarea:focus, select:focus {
     padding: 0 150px;
   }
 }
+
