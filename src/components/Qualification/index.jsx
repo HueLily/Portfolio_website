@@ -1,7 +1,7 @@
 import React from "react"
 import { Container, Row, Col } from "react-bootstrap";
 import circleImg from "../../assets/me-img.jpg";
-import { FaJava, faC, FaHtml5, FaCss3Alt, FaJs, FaReact, FaAngular, FaBootstrap, FaNodeJs, FaPython, FaGitAlt, FaGithub} from "react-icons/fa";
+import { FaJava, FaHtml5, FaCss3Alt, FaJs, FaReact, FaAngular, FaBootstrap, FaNodeJs, FaPython, FaGitAlt, FaGithub } from "react-icons/fa";
 import { BiLogoPostgresql, BiLogoMongodb, BiLogoSpringBoot, BiLogoTypescript, BiLogoTailwindCss, BiLogoNetlify } from "react-icons/bi";
 import "./index.css"
 
@@ -58,7 +58,7 @@ const Qualification = () => {
             </Col>
             <Col xs={4} md={2} className="tech-icons">
               <div className="item">
-                <faC />
+               
                 <p>C/C++</p>
               </div>
             </Col>
@@ -70,55 +70,54 @@ const Qualification = () => {
             </Col>
             <Col xs={4} md={2} className="tech-icons">
               <div className="item">
-                <img src={css3} alt="Image" />
-                
+                <FaCss3Alt />
+                <p>CSS3</p>
               </div>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
               <div className="item">
-                <img src={js} alt="Image" />
+                <FaJs />
                 <p>Javascript</p>
               </div>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
               <div className="item">
-                <img src={SQL} alt="Image" />
+                <BiLogoPostgresql />
                 <p>SQL</p>
               </div>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
               <div className="item">
-                <img src={mongoDB} alt="Image" />
+                <BiLogoMongodb />
                 <p>MongoDB</p>
               </div>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
               <div className="item">
-                <img src={react} alt="Image" />
+                <FaReact />
                 <p>React JS</p>
               </div>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
               <div className="item">
-                <img src={angular} alt="Image" />
+                <FaAngular />
                 <p>Angular</p>
               </div>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
               <div className="item">
-                <img src={bootstrap} alt="Image" />
+                <FaBootstrap />
                 <p>Bootstrap</p>
               </div>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
               <div className="item">
-                <img src={nodejs} alt="Image" />
+                <FaNodeJs />
                 <p>Node JS</p>
               </div>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
               <div className="item">
-                <img src={api} alt="Image" />
                 <p>API</p>
               </div>
             </Col>
