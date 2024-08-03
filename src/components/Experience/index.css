@@ -1,0 +1,46 @@
+.work-item {
+  position: relative;
+  padding-left: 60px;
+}
+
+.work-item:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.work-item::before {
+  content: "";
+  position: absolute;
+  inset-block: 0;
+  left: 20px;
+  border-left: 1px solid white;
+}
+
+.work-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #064aac;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+}
+
+.work-date {
+  background-color: #93b9f2;
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-size: 12.5px;
+}
+
+.work-title {
+  font-size: large;
+  margin-block: 20px 10px;
+}
+
+.work-desc {
+  font-size: medium;
+  line-height: 1.3;
+}
