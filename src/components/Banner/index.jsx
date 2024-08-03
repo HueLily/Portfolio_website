@@ -59,7 +59,7 @@ const Banner = () => {
     <section className="banner" id="home">
       <Container>
         <Row className="align-items-center">
-          <Col xs={12} md={6} xl={7}>
+          <Col xs={12} md={8} xl={7}>
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
@@ -69,23 +69,23 @@ const Banner = () => {
                 >
                   <p>Welcome to my Portfolio</p>
                   <h1>
-                    {`Hi, I'm a `}
+                    {`I'm a `}
                     <span className="wrap">{text}</span>
                   </h1>
                   <span className="navbar-text">
                     <div className="social-icon">
                       <Breadcrumb>
                       <Breadcrumb.Item href="https://www.linkedin.com/in/hue-thu-nguyen-513a26256/">
-                      <FaLinkedin />
+                      <FaLinkedin className="media-icon"/>
                       </Breadcrumb.Item>
                       <Breadcrumb.Item href="https://github.com/HueLily">
-                      <FaGithub />
+                      <FaGithub className="media-icon"/>
                       </Breadcrumb.Item>
                       <Breadcrumb.Item href="">
-                      <FaEnvelope />
+                      <FaEnvelope className="media-icon"/>
                       </Breadcrumb.Item>
                       <Breadcrumb.Item href="https://www.instagram.com/invites/contact/?i=ow9dygqxymbk&utm_content=e45c1g3">
-                      <FaInstagram />
+                      <FaInstagram className="media-icon"/>
                       </Breadcrumb.Item>
                       </Breadcrumb>
                     </div>
@@ -95,7 +95,7 @@ const Banner = () => {
               )}
             </TrackVisibility>
           </Col>
-          <Col xs={12} md={6} xl={5}>
+          <Col xs={12} md={4} xl={5}>
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
