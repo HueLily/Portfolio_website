@@ -1,9 +1,29 @@
-import React from "react"
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import circleImg from "../../assets/me-img.jpg";
-import { FaJava, FaHtml5, FaCss3Alt, FaJs, FaReact, FaAngular, FaBootstrap, FaNodeJs, FaPython, FaGitAlt, FaGithub } from "react-icons/fa";
-import { BiLogoPostgresql, BiLogoMongodb, BiLogoSpringBoot, BiLogoTypescript, BiLogoTailwindCss, BiLogoNetlify } from "react-icons/bi";
-import "./index.css"
+import {
+  FaJava,
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaReact,
+  FaAngular,
+  FaBootstrap,
+  FaNodeJs,
+  FaPython,
+  FaGitAlt,
+  FaGithub,
+} from "react-icons/fa";
+import {
+  BiLogoPostgresql,
+  BiLogoMongodb,
+  BiLogoCPlusPlus,
+  BiLogoSpringBoot,
+  BiLogoTypescript,
+  BiLogoNetlify,
+} from "react-icons/bi";
+import { TbCloudComputing } from "react-icons/tb";
+import "./index.css";
 
 const Qualification = () => {
   const responsive = {
@@ -27,15 +47,15 @@ const Qualification = () => {
 
   return (
     <section className="qualification" id="qualification">
-       <Container>
+      <Container>
         <Row className="align-items-center first-row" id="row1">
           <h2>About Me</h2>
 
           <Col xs={12} md={6} xl={4}>
             <img src={circleImg} alt="Headder Img" className="me-img"></img>
           </Col>
-          <Col xs={12} md={6} xl={8} id="intro">
-            <p>
+          <Col xs={12} md={6} xl={8} className="introduction-container">
+            <p className="normal-para">
               I am a Computer Science major and Economics major at DePauw
               University. My experience includes Web Development and Android
               Development. I am interested in security and excited to keep
@@ -52,72 +72,103 @@ const Qualification = () => {
           >
             <Col xs={4} md={2} className="tech-icons">
               <div className="item">
-                <FaJava />
+                <FaJava className="skill-icon"/>
                 <p>Java</p>
               </div>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
               <div className="item">
-               
+                <FaPython className="skill-icon"/>
+                <p>Python</p>
+              </div>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+              <div className="item">
+                <BiLogoCPlusPlus className="skill-icon"/>
                 <p>C/C++</p>
               </div>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
               <div className="item">
-                <FaHtml5 />
+                <FaHtml5 className="skill-icon"/>
                 <p>HTML5</p>
               </div>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
               <div className="item">
-                <FaCss3Alt />
+                <FaCss3Alt className="skill-icon"/>
                 <p>CSS3</p>
               </div>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
               <div className="item">
-                <FaJs />
+                <FaJs className="skill-icon"/>
                 <p>Javascript</p>
               </div>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
               <div className="item">
-                <BiLogoPostgresql />
-                <p>SQL</p>
-              </div>
-            </Col>
-            <Col xs={4} md={2} className="tech-icons">
-              <div className="item">
-                <BiLogoMongodb />
-                <p>MongoDB</p>
-              </div>
-            </Col>
-            <Col xs={4} md={2} className="tech-icons">
-              <div className="item">
-                <FaReact />
-                <p>React JS</p>
-              </div>
-            </Col>
-            <Col xs={4} md={2} className="tech-icons">
-              <div className="item">
-                <FaAngular />
-                <p>Angular</p>
-              </div>
-            </Col>
-            <Col xs={4} md={2} className="tech-icons">
-              <div className="item">
-                <FaBootstrap />
-                <p>Bootstrap</p>
-              </div>
-            </Col>
-            <Col xs={4} md={2} className="tech-icons">
-              <div className="item">
-                <FaNodeJs />
+                <BiLogoTypescript className="skill-icon"/>
                 <p>Node JS</p>
               </div>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
               <div className="item">
+                <FaReact className="skill-icon"/>
+                <p>React JS</p>
+              </div>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+              <div className="item">
+                <FaAngular className="skill-icon"/>
+                <p>Angular</p>
+              </div>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+              <div className="item">
+                <FaBootstrap className="skill-icon"/>
+                <p>Bootstrap</p>
+              </div>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+              <div className="item">
+                <BiLogoPostgresql className="skill-icon"/>
+                <p>PostgreSQL</p>
+              </div>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+              <div className="item">
+                <BiLogoMongodb className="skill-icon"/>
+                <p>MongoDB</p>
+              </div>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+              <div className="item">
+                <FaNodeJs className="skill-icon"/>
+                <p>Node JS</p>
+              </div>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+              <div className="item">
+                <BiLogoSpringBoot className="skill-icon"/>
+                <p>Spring Boot</p>
+              </div>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+              <div className="item">
+                <FaGithub className="skill-icon"/>
+                <p>Git</p>
+              </div>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+              <div className="item">
+                <FaGitAlt className="skill-icon"/>
+                <p>Node JS</p>
+              </div>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+              <div className="item">
+                <TbCloudComputing className="skill-icon"/>
                 <p>API</p>
               </div>
             </Col>
@@ -125,6 +176,6 @@ const Qualification = () => {
         </div>
       </Container>
     </section>
-  )
-}
+  );
+};
 export default Qualification;
