@@ -75,7 +75,7 @@ span.navbar-text {
 
 .social-icon .breadcrumb .breadcrumb-item::before {
   content: "";
-  width: 100px;
+  width: 55px;
   height: 55px;
   display: flex;
   background-color: #ffffff;
