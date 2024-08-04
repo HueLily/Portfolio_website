@@ -1,7 +1,12 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
-import musicApp from "../../assets/music-app.png";
 import { FaCode, FaExternalLinkAlt } from "react-icons/fa";
+import musicApp from "../../assets/music-app.png";
+import marketApp from "../../assets/market-app.png";
+import organicApp from "../../assets/organic.jpg";
+import dpuHack from "../../assets/DePauw-hack.png";
+import safeRoute from "../../assets/safe-route.jpg";
+import googleAPI from "../../assets/google-api.jpg";
 import ProjectItem from "../../util/ProjectItem";
 import "./index.css";
 
@@ -27,7 +32,7 @@ const Project = () => {
 
     {
       id: 2,
-      img: musicApp,
+      img: marketApp,
       title: "Renoon Same",
       details: [
         {
@@ -45,7 +50,7 @@ const Project = () => {
 
     {
       id: 3,
-      img: musicApp,
+      img: organicApp,
       title: "ORGANIC LIFE",
       details: [
         {
@@ -63,7 +68,7 @@ const Project = () => {
 
     {
       id: 4,
-      img: musicApp,
+      img: dpuHack,
       title: "DePauw Hackathon Website",
       details: [
         {
@@ -81,7 +86,7 @@ const Project = () => {
 
     {
       id: 5,
-      img: musicApp,
+      img: googleAPI,
       title: "Google API Workshop",
       details: [
         {
@@ -99,7 +104,7 @@ const Project = () => {
 
     {
       id: 6,
-      img: musicApp,
+      img: safeRoute,
       title: "Wortal _ Hackathon",
       details: [
         {
