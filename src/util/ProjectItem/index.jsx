@@ -20,8 +20,8 @@ const ProjectItem = ({img, title, details}) => {
             { modal && (
                 <div className="project-modal">
                 <div className="modal-content" id="modal">
-                    <img src={Close} alt="" className="modal-close" onClick={<CloseButton />}/>
-
+                    
+                    <CloseButton className="modal-close" onClick={toggleModal} />
                     <h3 className="modal-title">{title}</h3>
 
                     <ul className="modal-list grid">

@@ -1,0 +1,23 @@
+.project {
+  background-color: #f3f5f8;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000000;
+  padding: 50px 0;
+  position: relative;
+}
+
+.project h2 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.project-container {
+  grid-template-columns: auto auto auto !important;
+  display: grid;
+  grid-gap: 10px;
+}

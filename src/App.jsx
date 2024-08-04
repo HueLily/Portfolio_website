@@ -4,6 +4,7 @@ import NavigationBar from "./components/Navbar";
 import Banner from "./components/Banner";
 import Qualification from "./components/Qualification";
 import Experience from "./components/Experience";
+import Project from "./components/Project";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Banner />
       <Qualification />
       <Experience />
+      <Project />
     </div>
   );
 }
