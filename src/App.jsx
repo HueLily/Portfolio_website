@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import NavigationBar from "./components/Navbar";
 import Banner from "./components/Banner";
 import Qualification from "./components/Qualification";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NavigationBar />
       <Banner />
       <Qualification />
+      <Experience />
     </div>
   );
 }

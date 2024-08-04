@@ -1,7 +1,7 @@
 import React from "react";
+import "./index.css"
 
-
-export const ExperienceItem = ({icon, year, title, location, desc1, desc2, desc3}) => {
+const ExperienceItem = ({icon, year, title, location, desc1, desc2, desc3}) => {
     return (
         <div className="work-item">
             <div className="work-icon">{icon}</div>
@@ -14,3 +14,4 @@ export const ExperienceItem = ({icon, year, title, location, desc1, desc2, desc3
     )
 }
 
+export default ExperienceItem;
