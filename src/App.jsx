@@ -5,6 +5,7 @@ import Banner from "./components/Banner";
 import Qualification from "./components/Qualification";
 import Experience from "./components/Experience";
 import Project from "./components/Project";
+import Leadership from "./components/Leadership";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Qualification />
       <Experience />
       <Project />
+      <Leadership />
     </div>
   );
 }

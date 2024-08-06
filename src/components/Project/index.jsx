@@ -69,7 +69,7 @@ const Project = () => {
     {
       id: 4,
       img: dpuHack,
-      title: "DePauw Hackathon Website",
+      title: "DePauw Hackathon Website_DePauw TigerHack",
       details: [
         {
           icon: <FaCode />,
@@ -87,7 +87,7 @@ const Project = () => {
     {
       id: 5,
       img: googleAPI,
-      title: "Google API Workshop",
+      title: "Google API Workshop_DePauw WiCS TigerHack",
       details: [
         {
           icon: <FaCode />,
@@ -105,7 +105,7 @@ const Project = () => {
     {
       id: 6,
       img: safeRoute,
-      title: "Wortal _ Hackathon",
+      title: "Safe Route_Rewriting The Code Hackathon",
       details: [
         {
           icon: <FaCode />,
