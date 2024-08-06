@@ -8,7 +8,6 @@ import rtcLogo from "../../assets/rtc-logo.jpg";
 import "./index.css";
 
 const Leadership = () => {
-
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -51,7 +50,7 @@ const Leadership = () => {
             <h2>Leadership Experience</h2>
             <h3>Activities</h3>
             <div className="activity-container">
-            <Row className="margin-top">
+              <Row className="margin-top">
                 <Col>
                   <Carousel className="carousel-container">
                     <Carousel.Item interval={1400}>
@@ -65,7 +64,7 @@ const Leadership = () => {
                       </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item interval={1400}>
-                    <img src={wicsEvent} alt=""></img>
+                      <img src={wicsEvent} alt=""></img>
                       <Carousel.Caption>
                         <h3>Second slide label</h3>
                         <p>
@@ -75,7 +74,7 @@ const Leadership = () => {
                       </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item interval={1400}>
-                    <img src={wicsEvent} alt=""></img>
+                      <img src={wicsEvent} alt=""></img>
                       <Carousel.Caption>
                         <h3>Third slide label</h3>
                         <p>
@@ -91,48 +90,46 @@ const Leadership = () => {
             <div className="organization-contaainer">
               <h3>Involvement in Organizations</h3>
               <Row
-            className="margin-top"
-            style={{ justifyContent: "center", paddingBottom: "50px" }}
-          >
-            <Col xs={4} md={2} className="activiti-card">
-              <div className="item">
-                <img src={wicsLogo} alt="" />
-                <p>DePauw WiCS</p>
-              </div>
-            </Col>
-            <Col xs={4} md={2} className="activiti-card">
-              <div className="item">
-              <img src={wicsLogo} alt="" />
-                <p>Grace Hopper Celebration</p>
-              </div>
-            </Col>
-            <Col xs={4} md={2} className="activiti-card">
-              <div className="item">
-              <img src={wicsEvent} alt="" />
-                <p>WeCode Harvard</p>
-              </div>
-            </Col>
-            <Col xs={4} md={2} className="activiti-card">
-              <div className="item">
-              <img src={wicsEvent} alt="" />
-                <p>Xplore TechPoint</p>
-              </div>
-            </Col>
-            <Col xs={4} md={2} className="activiti-card">
-              <div className="item">
-              <img src={wicsEvent} alt="" />
-                <p>Rewriting The Code</p>
-              </div>
-            </Col>
-            <Col xs={4} md={2} className="activiti-card">
-              <div className="item">
-              <img src={wicsEvent} alt="" />
-                <p>Girl Who Code</p>
-              </div>
-            </Col>
-            
-          </Row>
-              
+                className="margin-top"
+                style={{ justifyContent: "center", paddingBottom: "50px" }}
+              >
+                <Col xs={4} md={2} className="activiti-card">
+                  <div className="item">
+                    <img src={wicsLogo} alt="" />
+                    <p>DePauw WiCS</p>
+                  </div>
+                </Col>
+                <Col xs={4} md={2} className="activiti-card">
+                  <div className="item">
+                    <img src={wicsLogo} alt="" />
+                    <p>GHC</p>
+                  </div>
+                </Col>
+                <Col xs={4} md={2} className="activiti-card">
+                  <div className="item">
+                    <img src={wecodeLogo} alt="" />
+                    <p>WeCode Harvard</p>
+                  </div>
+                </Col>
+                <Col xs={4} md={2} className="activiti-card">
+                  <div className="item">
+                    <img src={wicsLogo} alt="" />
+                    <p>Xplore TechPoint</p>
+                  </div>
+                </Col>
+                <Col xs={4} md={2} className="activiti-card">
+                  <div className="item">
+                    <img src={rtcLogo} alt="" />
+                    <p>Rewriting The Code</p>
+                  </div>
+                </Col>
+                <Col xs={4} md={2} className="activiti-card">
+                  <div className="item">
+                    <img src={wecodeLogo} alt="" />
+                    <p>Girl Who Code</p>
+                  </div>
+                </Col>
+              </Row>
             </div>
           </Col>
         </Row>
