@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 import wicsEvent from "../../assets/wics-event.jpg";
-import wicsLogo from "../../assets/wics-logo.png";
 import wecodeLogo from "../../assets/wecode-logo.jpg";
 import rtcLogo from "../../assets/rtc-logo.jpg";
 import "./index.css";
@@ -95,13 +94,13 @@ const Leadership = () => {
               >
                 <Col xs={4} md={2} className="activiti-card">
                   <div className="item">
-                    <img src={wicsLogo} alt="" />
+                    <img src={wecodeLogo} alt="" />
                     <p>DePauw WiCS</p>
                   </div>
                 </Col>
                 <Col xs={4} md={2} className="activiti-card">
                   <div className="item">
-                    <img src={wicsLogo} alt="" />
+                    <img src={wecodeLogo} alt="" />
                     <p>GHC</p>
                   </div>
                 </Col>
@@ -113,7 +112,7 @@ const Leadership = () => {
                 </Col>
                 <Col xs={4} md={2} className="activiti-card">
                   <div className="item">
-                    <img src={wicsLogo} alt="" />
+                    <img src={wecodeLogo} alt="" />
                     <p>Xplore TechPoint</p>
                   </div>
                 </Col>
