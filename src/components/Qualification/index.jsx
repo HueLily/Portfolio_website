@@ -64,7 +64,14 @@ const Qualification = () => {
         <div className="qualification-list">
           <h5>Qualification</h5>
 
-          <Marquee>
+          <Marquee
+           gradient={false}
+           speed={80}
+           pauseOnHover={true}
+           pauseOnClick={true}
+           delay={0}
+           play={true}
+           direction="left">
             <Row
               className="margin-top"
               style={{ justifyContent: "center", paddingBottom: "50px" }}
