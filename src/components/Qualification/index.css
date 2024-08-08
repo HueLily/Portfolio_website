@@ -80,6 +80,10 @@
   height: 95px;
 }
 
+.tech-icons:last-child{
+ margin-right: 30px;
+}
+
 @media (max-width: 767px) {
   .tech-icons {
     margin: 10px;
