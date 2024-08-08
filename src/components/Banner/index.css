@@ -1,7 +1,6 @@
 .banner {
-  margin: -250px;
+  margin: 0;
   padding: 0;
-  background-image: url("assets/bg1.jpg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;

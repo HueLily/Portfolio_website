@@ -13,7 +13,7 @@ const Banner = () => {
   //indicate like index as word currently displayed
   const [isDeleting, setIsDeleting] = useState(false);
   //words being typed out or breing deleted
-  const toRotate = ["Computer Science Major", "Software Developer", "student"];
+  const toRotate = ["Hue (Lily)", "Computer Science Major", "Software Developer"];
   const [text, setText] = useState("");
   //which part is showing words are displaying
   const [index, setIndex] = useState(1);
