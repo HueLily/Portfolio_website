@@ -37,20 +37,6 @@ const Experience = () => {
     {
       id: 3,
       icon: <FaBriefcase />,
-      year: "05/2024 - 7/2024",
-      title: "Xplore",
-      location: " - TechPoint",
-      desc1:
-        "Assists professors in CSC121 in introducing the course using Java and supports 30 students, which achieve a 40% improvement in their total grade",
-      desc2:
-        "Conducts weekly-3 hours sessions to help students with their assignments, coding projects and prepare them for quizzes and exams",
-      desc3:
-        "                                                                                                                                                                                                                                        ",
-    },
-
-    {
-      id: 4,
-      icon: <FaBriefcase />,
       year: "05/2023 - 08/2023",
       title: "Front-End Developer Intern",
       location: " - FPT Software",
@@ -75,6 +61,21 @@ const Experience = () => {
         "Direct 17+ exec board members to conduct 10 workshops and support members engage in 4 conferences, achieving a 170% increase in members",
       desc3: "",
     },
+
+    {
+      id: 2,
+      icon: <FaBriefcase />,
+      year: "05/2024 - 7/2024",
+      title: "Xplore",
+      location: " - TechPoint",
+      desc1:
+        "Assists professors in CSC121 in introducing the course using Java and supports 30 students, which achieve a 40% improvement in their total grade",
+      desc2:
+        "Conducts weekly-3 hours sessions to help students with their assignments, coding projects and prepare them for quizzes and exams",
+      desc3:
+        "                                                                                                                                                                                                                                        ",
+    },
+    
     {
       id: 2,
       icon: <FaBriefcase />,

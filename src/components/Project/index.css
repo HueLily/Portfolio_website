@@ -12,12 +12,12 @@
   font-size: 50px;
   font-weight: 700;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin: 30px;
 }
 
 .project-container {
-  grid-template-columns: auto auto auto !important;
+  grid-template-columns: auto auto;
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 20px;
+
 }
