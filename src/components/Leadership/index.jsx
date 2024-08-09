@@ -7,6 +7,21 @@ import rtcLogo from "../../assets/rtc-logo.jpg";
 import "./index.css";
 
 const Leadership = () => {
+  const Hexagon = ({ images }) => {
+    return (
+      <div className="hexagon-container">
+        {images.map((image, index) => (
+          <div className="hexagon" key={index}>
+            <div className="hexagon-in1">
+              <div className="hexagon-in2">
+                <img src={image} alt={`Hexagon Image ${index + 1}`}/>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    );
+  };
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -39,6 +54,17 @@ const Leadership = () => {
       title: "Tapia Conference",
       imgUrl: wicsEvent,
     },
+  ];
+
+  const images = [
+    wecodeLogo,
+    rtcLogo,
+    wecodeLogo,
+    rtcLogo,
+    wecodeLogo,
+    rtcLogo,
+    wecodeLogo,
+    rtcLogo,
   ];
 
   return (
@@ -88,7 +114,7 @@ const Leadership = () => {
             </div>
             <div className="organization-contaainer">
               <h3>Involvement in Organizations</h3>
-              <Row
+              {/* <Row
                 className="margin-top"
                 style={{ justifyContent: "center", paddingBottom: "50px" }}
               >
@@ -128,7 +154,10 @@ const Leadership = () => {
                     <p>Girl Who Code</p>
                   </div>
                 </Col>
-              </Row>
+              </Row> */}
+              <div className="hexagon-apply">
+                <Hexagon images={images}></Hexagon>
+              </div>
             </div>
           </Col>
         </Row>
