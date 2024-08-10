@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
-import { FaCode, FaExternalLinkAlt } from "react-icons/fa";
+// import { FaCode, FaExternalLinkAlt } from "react-icons/fa";
 import musicApp from "../../assets/music-app.png";
 import marketApp from "../../assets/market-app.png";
 import organicApp from "../../assets/organic.jpg";
@@ -9,128 +9,60 @@ import safeRoute from "../../assets/safe-route.jpg";
 import googleAPI from "../../assets/google-api.jpg";
 import ProjectItem from "../../util/ProjectItem";
 import "./index.css";
+import { Parallax } from "../../util/Parallax";
 
 const Project = () => {
   const projects = [
     {
-      id: 1,
       img: musicApp,
       title: "Music App",
-      details: [
-        {
-          icon: <FaCode />,
-          title: "Language: ",
-          desc: "React, MongoDB, Java, Spring Boot, PostgreSQL, Spotify API, OpenAI API, Authentication",
-        },
-        {
-          icon: <FaExternalLinkAlt />,
-          title: "Preview: ",
-          desc: "",
-        },
-      ],
     },
 
     {
-      id: 2,
       img: marketApp,
       title: "Renoon Same",
-      details: [
-        {
-          icon: <FaCode />,
-          title: "Language: ",
-          desc: "React, Tailwind CSS, MongoDB, Node.js, Express.js, Authetication",
-        },
-        {
-          icon: <FaExternalLinkAlt />,
-          title: "Preview: ",
-          desc: "",
-        },
-      ],
+      
     },
 
     {
-      id: 3,
+     
       img: organicApp,
-      title: "ORGANIC LIFE",
-      details: [
-        {
-          icon: <FaCode />,
-          title: "Language: ",
-          desc: "HTML, CSS, JS, React, MongoDB, Express",
-        },
-        {
-          icon: <FaExternalLinkAlt />,
-          title: "Preview: ",
-          desc: "",
-        },
-      ],
+      title: "FireGuard",
+     
     },
 
     {
-      id: 4,
+    
       img: dpuHack,
-      title: "DePauw Hackathon Website_DePauw TigerHack",
-      details: [
-        {
-          icon: <FaCode />,
-          title: "Language: ",
-          desc: "HTML, CSS, JS, React, Google Map",
-        },
-        {
-          icon: <FaExternalLinkAlt />,
-          title: "Preview: ",
-          desc: "",
-        },
-      ],
+      title: "DePauw Hackathon Website",
+      
     },
 
     {
-      id: 5,
+     
       img: googleAPI,
-      title: "Google API Workshop_DePauw WiCS TigerHack",
-      details: [
-        {
-          icon: <FaCode />,
-          title: "Language: ",
-          desc: "HTML, CSS, JS, React, Google API",
-        },
-        {
-          icon: <FaExternalLinkAlt />,
-          title: "Preview: ",
-          desc: "",
-        },
-      ],
+      title: "Google API Workshop",
+     
     },
 
     {
-      id: 6,
+    
       img: safeRoute,
-      title: "Safe Route_Rewriting The Code Hackathon",
-      details: [
-        {
-          icon: <FaCode />,
-          title: "Language: ",
-          desc: "",
-        },
-        {
-          icon: <FaExternalLinkAlt />,
-          title: "Preview: ",
-          desc: "",
-        },
-      ],
+      title: "Safe Route",
+      
     },
   ];
   return (
     <section className="project" id="projects">
       <Container>
-        <h2>Projects</h2>
-        <Row>
+        {/* <Row>
           <div className="project-container">
             {projects.map((item) => {
               return <ProjectItem key={item.id} {...item} />;
             })}
           </div>
-        </Row>
+        </Row> */}
+       <Parallax projects={projects} />
       </Container>
     </section>
   );
