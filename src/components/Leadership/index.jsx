@@ -1,27 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Carousel from "react-bootstrap/Carousel";
 import wicsEvent from "../../assets/wics-event.jpg";
 import wecodeLogo from "../../assets/wecode-logo.jpg";
 import rtcLogo from "../../assets/rtc-logo.jpg";
 import "./index.css";
 
 const Leadership = () => {
-  const Hexagon = ({ images }) => {
-    return (
-      <div className="hexagon-container">
-        {images.map((image, index) => (
-          <div className="hexagon" key={index}>
-            <div className="hexagon-in1">
-              <div className="hexagon-in2">
-                <img src={image} alt={`Hexagon Image ${index + 1}`}/>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-    );
-  };
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -56,111 +40,28 @@ const Leadership = () => {
     },
   ];
 
-  const images = [
-    wecodeLogo,
-    rtcLogo,
-    wecodeLogo,
-    rtcLogo,
-    wecodeLogo,
-    rtcLogo,
-    wecodeLogo,
-    rtcLogo,
-  ];
-
+  
   return (
     <section className="leadership" id="leader">
       <Container>
         <Row>
-          <Col>
-            <h2>Leadership Experience</h2>
-            <h3>Activities</h3>
-            <div className="activity-container">
-              <Row className="margin-top">
-                <Col>
-                  <Carousel className="carousel-container">
-                    <Carousel.Item interval={1400}>
-                      <img src={wicsEvent} alt=""></img>
-                      <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>
-                          Nulla vitae elit libero, a pharetra augue mollis
-                          interdum.
-                        </p>
-                      </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item interval={1400}>
-                      <img src={wicsEvent} alt=""></img>
-                      <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
-                        </p>
-                      </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item interval={1400}>
-                      <img src={wicsEvent} alt=""></img>
-                      <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl
-                          consectetur.
-                        </p>
-                      </Carousel.Caption>
-                    </Carousel.Item>
-                  </Carousel>
-                </Col>
-              </Row>
-            </div>
-            <div className="organization-contaainer">
-              <h3>Involvement in Organizations</h3>
-              {/* <Row
-                className="margin-top"
-                style={{ justifyContent: "center", paddingBottom: "50px" }}
-              >
-                <Col xs={4} md={2} className="activiti-card">
-                  <div className="item">
-                    <img src={wecodeLogo} alt="" />
-                    <p>DePauw WiCS</p>
-                  </div>
-                </Col>
-                <Col xs={4} md={2} className="activiti-card">
-                  <div className="item">
-                    <img src={wecodeLogo} alt="" />
-                    <p>GHC</p>
-                  </div>
-                </Col>
-                <Col xs={4} md={2} className="activiti-card">
-                  <div className="item">
-                    <img src={wecodeLogo} alt="" />
-                    <p>WeCode Harvard</p>
-                  </div>
-                </Col>
-                <Col xs={4} md={2} className="activiti-card">
-                  <div className="item">
-                    <img src={wecodeLogo} alt="" />
-                    <p>Xplore TechPoint</p>
-                  </div>
-                </Col>
-                <Col xs={4} md={2} className="activiti-card">
-                  <div className="item">
-                    <img src={rtcLogo} alt="" />
-                    <p>Rewriting The Code</p>
-                  </div>
-                </Col>
-                <Col xs={4} md={2} className="activiti-card">
-                  <div className="item">
-                    <img src={wecodeLogo} alt="" />
-                    <p>Girl Who Code</p>
-                  </div>
-                </Col>
-              </Row> */}
-              <div className="hexagon-apply">
-                <Hexagon images={images}></Hexagon>
-              </div>
-            </div>
-          </Col>
+          <h2>Leadership Experience</h2>
+
+          <Row>
+            <Col>
+              <article className="card">
+              
+              </article>
+            </Col>
+              <div className="hexa gon"></div>
+              <div className="hexa gon"></div>
+              <div className="hexa gon"></div>
+              <div className="hexa gon"></div>
+          </Row>
+
+          
         </Row>
+        
       </Container>
     </section>
   );

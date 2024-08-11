@@ -55,13 +55,7 @@ const Project = () => {
   return (
     <section className="project" id="projects">
       <Container>
-        {/* <Row>
-          <div className="project-container">
-            {projects.map((item) => {
-              return <ProjectItem key={item.id} {...item} />;
-            })}
-          </div>
-        </Row> */}
+       
        <Parallax projects={projects} />
       </Container>
     </section>

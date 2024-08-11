@@ -39,6 +39,8 @@ export const ProjectCard = ({ project, translate }) => {
 export const Parallax = ({ projects }) => {
   const firstRow = projects.slice(0, 3);
   const secondRow = projects.slice(3, 6);
+  console.log(firstRow)
+  console.log(secondRow)
   const ref = React.useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,

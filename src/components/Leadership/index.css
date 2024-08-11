@@ -33,104 +33,29 @@
   font-size: 16px;
 }
 
-.activity-slider {
-  margin: 30px;
-  padding: 20px;
-}
-
-.carousel-container {
-  width: 70%;
-  height: 30%;
-  margin: auto;
-}
-
-.carousel-container .carousel-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.activiti-card {
-  font-size: 1em;
-  margin: 5px;
-  padding: 5px;
-  opacity: 0.93;
-  border: 1.5px solid #fff;
+.gon {
+  height: 120px;
+  background: url("https://i.imgur.com/IEiqEV0.jpg") no-repeat 50% 50%;
+  background-size: 220px 220px;
+  line-height: 220px;
   text-align: center;
-  border-radius: 5px;
-  display: flex;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137);
-  overflow: hidden;
-  transition: all 0.4s ease 0s;
-  justify-content: center;
-  border: 2px solid rgb(183, 179, 179);
-  width: 180px;
-  height: 180px;
+  color: #fff;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: color 500ms ease, text-shadow 500ms ease;
+  margin: 0.04px;
 }
 
-@media (max-width: 767px) {
-  .activiti-card {
-    margin: 10px;
-  }
+.gon:hover {
+  color: #fff;
+  text-shadow: 0 0 10px white;
 }
 
-.activiti-card img {
-  width: 100%;
-  height: 80%;
-  padding: 2px;
-}
-
-.activiti-card:hover {
-  transform: scale(1.05);
-  overflow: hidden;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
-}
-
-.hexagon-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hexagon {
-  width: 150px;
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-  padding: 20px;
-}
-
-.hexagon-in1,
-.hexagon-in2 {
-  width: inherit;
-  height: inherit;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-border: 2px solid red;
- 
-}
-
-.hexagon-in1 {
-  transform: rotate(120deg);
-  overflow: hidden;
-
-}
-
-.hexagon-in2 {
-  transform: rotate(-60deg);
-  overflow: hidden;
-  padding: 20px;
- 
-}
-
-
-.hexagon img {
-  width: 140%;
-  height: 140%;
-  object-fit: cover;
-  transform: rotate(-90deg);
+.hexa {
+  width: 120px;
+  -webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  -moz-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  -ms-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  
 }
