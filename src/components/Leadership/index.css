@@ -38,17 +38,20 @@
   padding: 50px;
 }
 
+
 .gon {
   height: 120px;
   background: url("https://i.imgur.com/IEiqEV0.jpg") no-repeat 50% 50%;
   background-size: 220px 220px;
-  line-height: 220px;
   text-align: center;
   color: #fff;
   color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
   transition: color 500ms ease, text-shadow 500ms ease;
-  margin: 0.04px;
+  margin: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .gon:hover {
@@ -65,9 +68,17 @@
 }
 
 .row {
-  margin-left: 0;
+  margin-left: 0; 
   margin-right: 0;
   display: flex;
   justify-content: center;
-align-items: center;
+  align-items: center;
+}
+
+.hexa-img {
+  width: 150%;
+}
+
+.second-row {
+  margin-top: -30px;
 }
