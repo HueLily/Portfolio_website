@@ -3,7 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import wicsEvent from "../../assets/wics-event.jpg";
 import wecodeLogo from "../../assets/wecode-logo.jpg";
 import rtcLogo from "../../assets/rtc-logo.jpg";
-import Carousel from "react-multi-carousel";
+// import Carousel from "react-multi-carousel";
+import Carousel from "react-bootstrap/Carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./index.css";
 
@@ -22,15 +23,16 @@ const Leadership = () => {
       imgUrl: wicsEvent,
     },
   ];
+  const carouselStyle = {
+      height:'500px',
+  }
 
   return (
     <section className="leadership" id="leader">
       <Container>
-        <Row>
-          <h2>Leadership Experience</h2>
+        <h2>Leadership Experience</h2>
 
-          <Row className="carousel-row">
-            <Carousel
+        {/* <Carousel
             className="carousel-container"
               additionalTransfrom={0}
               arrows
@@ -67,6 +69,7 @@ const Leadership = () => {
               }}
               showDots={false}
               swipeable
+              height='60%'
             >
               <img
                 src={wicsEvent}
@@ -80,9 +83,38 @@ const Leadership = () => {
                  src={wicsEvent}
                 className="carousel-img"
               />
-            </Carousel>
-          </Row>
-
+            </Carousel> */}
+        <Row>
+          <Carousel indicators={false} data-bs-theme="dark">
+            <Carousel.Item interval={2500} style={carouselStyle}>
+              <img src={wicsEvent} className="carousel-img" />
+              {/* <Carousel.Caption>
+                <h3>First slide label</h3>
+                <p>
+                  Nulla vitae elit libero, a pharetra augue mollis interdum.
+                </p>
+              </Carousel.Caption> */}
+            </Carousel.Item>
+            <Carousel.Item interval={2500} style={carouselStyle}>
+              <img src={wicsEvent} className="carousel-img" />
+              {/* <Carousel.Caption>
+                <h3>Second slide label</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </Carousel.Caption> */}
+            </Carousel.Item>
+            <Carousel.Item interval={2500} style={carouselStyle}>
+              <img src={wicsEvent} className="carousel-img" />
+              {/* <Carousel.Caption>
+                <h3>Third slide label</h3>
+                <p>
+                  Praesent commodo cursus magna, vel scelerisque nisl
+                  consectetur.
+                </p>
+              </Carousel.Caption> */}
+            </Carousel.Item>
+          </Carousel>
+        </Row>
+        <Row>
           <div className="hexa gon"></div>
           <div className="hexa gon"></div>
           <div className="hexa gon"></div>
