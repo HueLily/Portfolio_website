@@ -37,10 +37,9 @@ export const ProjectCard = ({ project, translate }) => {
   );
 };
 export const Parallax = ({ projects }) => {
-  const firstRow = projects.slice(0, 3);
-  const secondRow = projects.slice(3, 6);
-  console.log(firstRow)
-  console.log(secondRow)
+  const firstRow = projects.slice(0, 2);
+  const secondRow = projects.slice(2, 4);
+  const thirdRow = projects.slice(4, 6);
   const ref = React.useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -53,12 +52,9 @@ export const Parallax = ({ projects }) => {
     useTransform(scrollYProgress, [0, 0], [0, 0]),
     springConfig
   );
-  const translateXReverse = useSpring(
-    useTransform(scrollYProgress, [0, -5], [0, -600]),
-    springConfig
-  );
+  
   const rotateX = useSpring(
-    useTransform(scrollYProgress, [0, 0.2], [15, 0]),
+    useTransform(scrollYProgress, [0, 0.2], [60, 0]),
     springConfig
   );
   const opacity = useSpring(
@@ -70,12 +66,12 @@ export const Parallax = ({ projects }) => {
     springConfig
   );
   const translateY = useSpring(
-    useTransform(scrollYProgress, [0, 0.2], [200, 500]),
+    useTransform(scrollYProgress, [0, 0.2], [-300, 400]),
     springConfig
   );
+
   return (
     <div id="parallax" ref={ref} className="parallax">
-      <Header />
       <motion.div
         style={{
           rotateX,
@@ -105,11 +101,25 @@ export const Parallax = ({ projects }) => {
           {secondRow.map((project) => (
             <ProjectCard
               project={project}
-              translate={translateXReverse}
+              translate={translateX}
               key={project.title}
             />
           ))}
         </motion.div>
+
+        <motion.div
+          className="project-container"
+          style={{ display: "flex", justifyContent: "space-between" }}
+        >
+          {thirdRow.map((project) => (
+            <ProjectCard
+              project={project}
+              translate={translateX}
+              key={project.title}
+            />
+          ))}
+        </motion.div>
+        
       </motion.div>
     </div>
   );

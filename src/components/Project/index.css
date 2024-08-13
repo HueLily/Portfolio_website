@@ -1,12 +1,12 @@
 .project {
-  background-color: #f3f5f8;
+  background-color: black;
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #000000;
+  color: #fff;
   padding: 50px 0;
   position: relative;
-  height: 150vh;
+  height: 250vh;
 }
 
 .project h2 {

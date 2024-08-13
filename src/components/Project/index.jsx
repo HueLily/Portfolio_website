@@ -13,6 +13,8 @@ import { Parallax } from "../../util/Parallax";
 
 const Project = () => {
   const projects = [
+   
+
     {
       img: musicApp,
       title: "Music App",
@@ -51,13 +53,13 @@ const Project = () => {
       title: "Safe Route",
       
     },
+    
   ];
   return (
     <section className="project" id="projects">
-      <Container>
-       
+      
        <Parallax projects={projects} />
-      </Container>
+      
     </section>
   );
 };

@@ -1,6 +1,6 @@
 #parallax {
     position: relative;
-    display: flex;
+	position: fixed;
     height: 270vh; /* 270% of the viewport height */
     flex-direction: column;
     align-self: auto;
@@ -29,14 +29,12 @@
     max-width: 80rem; /* Equivalent to max-w-5xl */
     padding-left: 1rem; /* Equivalent to px-4 */
     padding-right: 1rem;
-    padding-top: 5rem; /* Equivalent to py-20 */
+    padding-top: 5rem; 
     padding-bottom: 5rem;
-
 }
 .header-title {
-    font-size: 1.5rem; /* Equivalent to text-2xl */
+    font-size: 1.5rem; 
     font-weight: bold;
-    color: black; /* Default color */
 }
 
 
@@ -95,3 +93,9 @@
 .product-card:hover .product-title {
     opacity: 1;
 }
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
