@@ -6,6 +6,7 @@ import Qualification from "./components/Qualification";
 import Experience from "./components/Experience";
 import Project from "./components/Project";
 import Leadership from "./components/Leadership";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Experience />
       <Project />
       <Leadership />
+      <Contact />
     </div>
   );
 }
