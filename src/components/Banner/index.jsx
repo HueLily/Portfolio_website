@@ -1,7 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Breadcrumb } from "react-bootstrap";
 import { useState, useEffect } from "react";
-import { FaLinkedin, FaGithub, FaEnvelope, FaInstagram } from "react-icons/fa";
+import githubIcon from "../../assets/github-icon.svg";
+import linkedin from "../../assets/linkedin.svg";
+import insta from "../../assets/insta.svg";
 import TrackVisibility from "react-on-screen";
 import bannerImg from '../../assets/banner-img.png';
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -72,24 +74,19 @@ const Banner = () => {
                     {`I'm a `}
                     <span className="wrap">{text}</span>
                   </h1>
-                  <span className="navbar-text">
-                    <div className="social-icon">
-                      <Breadcrumb>
-                      <Breadcrumb.Item href="https://www.linkedin.com/in/hue-thu-nguyen-513a26256/">
-                      <FaLinkedin className="media-icon"/>
-                      </Breadcrumb.Item>
-                      <Breadcrumb.Item href="https://github.com/HueLily">
-                      <FaGithub className="media-icon"/>
-                      </Breadcrumb.Item>
-                      <Breadcrumb.Item href="">
-                      <FaEnvelope className="media-icon"/>
-                      </Breadcrumb.Item>
-                      <Breadcrumb.Item href="https://www.instagram.com/invites/contact/?i=ow9dygqxymbk&utm_content=e45c1g3">
-                      <FaInstagram className="media-icon"/>
-                      </Breadcrumb.Item>
-                      </Breadcrumb>
-                    </div>
-                  </span>
+                  <span className="banner-icon">
+              <div className="social-media-icon">
+                <a href="https://www.linkedin.com/in/hue-thu-nguyen-513a26256/">
+                  <img src={linkedin} alt="" />
+                </a>
+                <a href="https://github.com/HueLily">
+                  <img src={githubIcon} alt="" />
+                </a>
+                <a href="https://www.instagram.com/invites/contact/?i=ow9dygqxymbk&utm_content=e45c1g3">
+                  <img src={insta} alt="" />
+                </a>
+              </div>
+            </span>
                   <button>Download My Resume</button>
                 </div>
               )}

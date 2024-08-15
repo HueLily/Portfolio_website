@@ -1,0 +1,19 @@
+.footer-container {
+    background-color: transparent;
+    text-align: center;
+    padding: 10px 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container p {
+    margin: 0;
+    color: #555;
+  }
+
+  .footer-divider {
+    border-top: 1px solid lightgray;
+    padding: 5px;
+  }

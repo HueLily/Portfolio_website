@@ -9,7 +9,7 @@
 }
 
 .banner h1 {
-  font-size: 53px;
+  font-size: 52px;
   font-weight: 700;
   letter-spacing: 1px;
   line-height: 1;
@@ -36,68 +36,53 @@
   display: flex;
   align-items: center;
 }
-/* 
-.banner button svg {
-  font-size: 25px;
-  margin-left: 10px;
-  transition: 0.3s ease-in-out;
-  line-height: 1;
-} */
 
-.breadcrumb .breadcrumb-item + .breadcrumb-item::before {
-  content: none;
-}
-
-span.navbar-text {
-  display: flex;
-  align-items: center;
-}
-
-.social-icon {
+.banner-icon {
   display: inline-block;
-  margin-left: 30px;
-  padding-top: 30px;
 }
 
-.social-icon .breadcrumb .breadcrumb-item {
-  width: 55px;
-  height: 55px;
-  background: rgba(17, 135, 199, 0.1);
+.social-media-icon {
+  display: inline-block;
+}
+
+.social-media-icon a {
+  width: 30px;
+  height: 30px;
   display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 15px;
-  border-radius: 50%;
-  margin-right: 10px;
   line-height: 1;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  text-align: center;
+  margin: 20px;
 }
 
-.social-icon .breadcrumb .breadcrumb-item::before {
+.social-media-icon a::before {
   content: "";
-  width: 55px;
-  height: 55px;
-  display: flex;
-  background-color: #ffffff;
-  border-radius: 50%;
+  position: absolute;
   transform: scale(0);
   transition: 0.3s ease-in-out;
-  border: 2px solid green;
 }
 
-.breadcrumb .breadcrumb-item:hover::before {
-  transform: scale(1);
+.social-media-icon a:hover::before {
+  transform: scale(2);
 }
 
-.breadcrumb .breadcrumb-item .media-icon {
-  z-index: 1;
-  transition: 0.3s ease-in-out;
-  animation: updown 4s linear infinite;
-}
-
-.breadcrumb .breadcrumb-item:hover .media-icon {
+.social-media-icon a:hover img {
   filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%)
     hue-rotate(346deg) brightness(95%) contrast((86%));
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-25px);
+  }
+  50% {
+    transform: translateY(25px);
+  }
+  100% {
+    transform: translateY(-25px);
+  }
+}
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
 }
 
 .banner img {
