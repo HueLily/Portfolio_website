@@ -28,7 +28,7 @@ const Leadership = () => {
   }
 
   return (
-    <section className="leadership" id="leader">
+    <section className="leadership" id="leadership">
       <Container>
         <h2>Leadership Experience</h2>
         <Row>

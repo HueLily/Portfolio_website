@@ -56,7 +56,7 @@ const Project = () => {
     
   ];
   return (
-    <section className="project" id="projects">
+    <section className="project" id="project">
       
        <Parallax projects={projects} />
       
