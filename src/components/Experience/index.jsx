@@ -13,9 +13,9 @@ const Experience = () => {
       title: "Tenzer Technology Center Intern",
       location: "",
       desc1:
-        "Assists professors in CSC121 in introducing the course using Java and supports 30 students, which achieve a 40% improvement in their total grade",
+        "Assists professors in CSC 121 in introducing the course using Java and conducts weekly-4 hours sessions to supports 60 students, which achieve a 40% improvement in their total grade",
       desc2:
-        "Conducts weekly-3 hours sessions to help students with their assignments, coding projects and prepare them for quizzes and exams",
+        "",
       desc3:
         "                                                                                                                                                                                                                                        ",
     },
@@ -27,9 +27,9 @@ const Experience = () => {
       title: "Computer Science Teaching Assistant",
       location: "",
       desc1:
-        "Assists professors in CSC121 in introducing the course using Java and supports 30 students, which achieve a 40% improvement in their total grade",
+        "Assists professors in CSC 121 in introducing the course using Java and conducts weekly-4 hours sessions to supports 60 students, which achieve a 40% improvement in their total grade",
       desc2:
-        "Conducts weekly-3 hours sessions to help students with their assignments, coding projects and prepare them for quizzes and exams",
+        "",
       desc3:
         "                                                                                                                                                                                                                                        ",
     },
@@ -42,9 +42,9 @@ const Experience = () => {
       location: " - FPT Software",
       desc1: "",
       desc2:
-        "Created 17 functionalities in the user interface by using JavaScript, HTML/CSS, which enhance form creation efficiency by 30%",
+        "Created 17 functionalities in the user interface by using JavaScript, HTML/CSS, and implemented React to optimize components for maximum reusability, resulting in a 20% decrease in load time post-optimization efforts",
       desc3:
-        "Implemented Angular to optimize components for maximum reusability, resulting in a 20% decrease in load time post-optimization efforts",
+        "",
     },
   ];
 
@@ -56,9 +56,9 @@ const Experience = () => {
       title: "President",
       location: " - DePauw Women in Computer Science",
       desc1:
-        "Lead the internal and external teams to design and build WiCS LinkedIn and social media",
+        "Direct 17+ executive board members to build WiCS Linkedin and conduct 10 workshops and support members engage in 4 conferences, achieving a 170% increase in members",
       desc2:
-        "Direct 17+ exec board members to conduct 10 workshops and support members engage in 4 conferences, achieving a 170% increase in members",
+        "",
       desc3: "",
     },
 
@@ -69,9 +69,9 @@ const Experience = () => {
       title: "Xplore",
       location: " - TechPoint",
       desc1:
-        "Assists professors in CSC121 in introducing the course using Java and supports 30 students, which achieve a 40% improvement in their total grade",
+        "Assists professors in CSC 121 in introducing the course using Java and conducts weekly-4 hours sessions to supports 60 students, which achieve a 40% improvement in their total grade",
       desc2:
-        "Conducts weekly-3 hours sessions to help students with their assignments, coding projects and prepare them for quizzes and exams",
+        "",
       desc3:
         "                                                                                                                                                                                                                                        ",
     },
@@ -83,10 +83,10 @@ const Experience = () => {
       title: "Technical Advisor",
       location: " - DePauw Women in Computer Science",
       desc1:
-        "Supports a group of 200+ qualified members who are interested in the Computer Science industry",
+        "Supports a group of 200+ qualified members and collaborate to conduct two Hackathon competitions, leading a 5-person team cooperate with the social media department to boost event outreach",
       desc2: "",
       desc3:
-        "Collaborate to conduct two Hackathon competitions, leading a 5-person team cooperate with the social media department to boost event outreach",
+        "",
     },
   ];
 
