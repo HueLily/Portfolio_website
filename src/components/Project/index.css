@@ -6,7 +6,7 @@
   color: #fff;
   padding: 50px 0;
   position: relative;
-  height: 250vh;
+  height: 330vh;
 }
 
 .project h2 {
@@ -14,6 +14,7 @@
   font-weight: 700;
   text-align: center;
   margin: 30px;
+  padding-top: 100px;
 }
 
 .project-container {

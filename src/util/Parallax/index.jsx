@@ -66,7 +66,7 @@ export const Parallax = ({ projects }) => {
     springConfig
   );
   const translateY = useSpring(
-    useTransform(scrollYProgress, [0, 0.2], [-300, 400]),
+    useTransform(scrollYProgress, [0, 0.2], [-500, 600]),
     springConfig
   );
 
