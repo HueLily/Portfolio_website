@@ -4,6 +4,7 @@ import githubIcon from "../../assets/github-icon.svg";
 import linkedin from "../../assets/linkedin.svg";
 import insta from "../../assets/insta.svg";
 import React  from 'react';
+import "./index.css"
 
 
 const Contact = () => {
