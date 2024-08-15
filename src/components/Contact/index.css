@@ -1,19 +1,19 @@
 .contacts {
+  background-color: #F3F5F8;
   padding: 50px 0;
   position: relative;
-  color: black;
 }
 
 .contacts h2 {
-  font-size: 50px;
-  font-weight: 700;
+	font-size: 50px;
+	font-weight: 700;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 20px;
 }
 .contacts h4 {
-  font-size: 25px;
-  font-weight: 500;
+	font-size: 25px;
+	font-weight: 500;
   text-align: center;
 }
 
@@ -45,8 +45,8 @@
 }
 
 .social-media a:hover img {
-  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%)
-    hue-rotate(346deg) brightness(95%) contrast((86%));
+  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast((86%));
+
 }
 
 .social-media a img {
@@ -61,15 +61,23 @@
 
 @keyframes updown {
   0% {
-    transform: translateY(-25px);
+      transform: translateY(-25px);
   }
   50% {
-    transform: translateY(25px);
+      transform: translateY(25px);
   }
   100% {
-    transform: translateY(-25px);
+      transform: translateY(-25px);
   }
 }
 .txt-rotate > .wrap {
-  border-right: 0.08em solid #666;
+border-right: 0.08em solid #666;
 }
+
+.black {
+  color: #000000;
+}
+
+
+
+

@@ -5,6 +5,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #000000;
+ 
 }
 
 .banner h1 {
@@ -101,9 +102,8 @@ span.navbar-text {
 
 .banner img {
   animation: updown 4s linear infinite;
-  width: 150%;
-  height: 150%;
-  margin-bottom: 300px;
+  width: 130%;
+  height: 130%;
 }
 
 @keyframes updown {
@@ -121,3 +121,4 @@ span.navbar-text {
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
+

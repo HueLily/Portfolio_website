@@ -1,7 +1,6 @@
 #parallax {
-    position: relative;
 	position: fixed;
-    height: 270vh; /* 270% of the viewport height */
+    height: 270vh;
     flex-direction: column;
     align-self: auto;
     overflow: hidden;
@@ -11,6 +10,7 @@
     -moz-osx-font-smoothing: grayscale;
     perspective: 1000px;
     transform-style: preserve-3d;
+
 }
 
 .flex {
@@ -19,15 +19,15 @@
 }
 
 /*Header Component*/
-.header {
+/* .header {
     position: relative;
     left: 0;
     top: 0;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    max-width: 80rem; /* Equivalent to max-w-5xl */
-    padding-left: 1rem; /* Equivalent to px-4 */
+    max-width: 80rem; 
+    padding-left: 1rem; 
     padding-right: 1rem;
     padding-top: 5rem; 
     padding-bottom: 5rem;
@@ -35,7 +35,7 @@
 .header-title {
     font-size: 1.5rem; 
     font-weight: bold;
-}
+} */
 
 
 /* ProductCard Component */
