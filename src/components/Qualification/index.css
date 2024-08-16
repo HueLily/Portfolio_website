@@ -2,7 +2,6 @@
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #000000;
   padding: 50px 0;
   position: relative;
 }
@@ -31,14 +30,12 @@
 }
 
 .qualification h4 {
-  color: #000000;
   margin-top: 25px;
   margin-bottom: 20px;
   margin-top: 30px;
 }
 
 .qualification p {
-  color: #000000;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5rem;

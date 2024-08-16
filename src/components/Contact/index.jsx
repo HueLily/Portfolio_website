@@ -34,7 +34,7 @@ const Contact = () => {
       <Container>
         <Row className="align-items-center">
         <h2>Get In Touch with Lily</h2>
-          <Col md={7}>
+          <Col md={6}>
             <Form className="form-container">
               <Form.Group className="mb-3" controlId="formGroupEmail">
                 <Form.Label>First and Last Name</Form.Label>
@@ -50,7 +50,7 @@ const Contact = () => {
               </Form.Group>
             </Form>
           </Col>
-          <Col md={5}>
+          <Col md={6}>
             <h4>You are welcome to reach me through my email:</h4>
             <h4 className="black">hue.lily.thunguyen@gmail.com</h4>
             <h4>
