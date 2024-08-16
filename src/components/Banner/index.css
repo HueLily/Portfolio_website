@@ -1,9 +1,10 @@
 .banner {
   margin: 0;
-  padding: 0;
+  padding-top: 150px;
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 .banner h1 {
@@ -81,9 +82,7 @@
 }
 
 .banner img {
-  animation: updown 4s linear infinite;
-  width: 130%;
-  height: 130%;
+  animation: updown 3s linear infinite;
 }
 
 @keyframes updown {
@@ -102,3 +101,19 @@
   border-right: 0.08em solid #666;
 }
 
+.banner-img {
+  width: 100%;
+  
+}
+/* .banner-img-container {
+  width: 100%;
+} */
+
+.a {
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}

@@ -9,10 +9,6 @@ nav.navbar {
   transition: 0.32s ease-in-out; /* For Aninmation */
 }
 
-nav.navbar.scrolled {
-  background-color: #d4f4fc;
-}
-
 nav.navbar a.navbar-brand {
   color: #000;
 }

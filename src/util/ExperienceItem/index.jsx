@@ -1,15 +1,13 @@
 import React from "react";
 import "./index.css"
 
-const ExperienceItem = ({icon, year, title, location, desc1, desc2, desc3}) => {
+const ExperienceItem = ({year, title, location, desc1}) => {
     return (
         <div className="work-item">
-            <div className="work-icon">{icon}</div>
+            <div className="work-icon"><a href="https://icons8.com/icon/OUdqvn4VDDbc/suitcase"></a></div>
             <span className="work-date">{year}</span>
-            <h3 className="work-title"><b>{title}</b>{location}</h3>
+            <h3 className="work-title"><b>{title} {location}</b></h3>
             <p className="work-desc">{desc1}</p>
-            <p className="work-desc">{desc2}</p>
-            <p className="work-desc">{desc3}</p>
         </div>
     )
 }

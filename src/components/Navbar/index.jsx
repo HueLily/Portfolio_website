@@ -27,7 +27,7 @@ const NavigationBar = () => {
 
   return (
     <Router>
-      <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
+      <Navbar expand="md" className={scrolled ? "scrolled bg-white" : ""}>
         <Navbar.Brand href="#home">
           <h2>HUE (LILY) THU NGUYEN</h2>
         </Navbar.Brand>

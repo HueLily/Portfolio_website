@@ -15,12 +15,12 @@ const Banner = () => {
   //indicate like index as word currently displayed
   const [isDeleting, setIsDeleting] = useState(false);
   //words being typed out or breing deleted
-  const toRotate = ["Hue (Lily)", "Computer Science Major", "Software Developer"];
+  const toRotate = ["Computer Science Major", "Fullstack Developer", "student"];
   const [text, setText] = useState("");
   //which part is showing words are displaying
   const [index, setIndex] = useState(1);
-  const [delta, setDelta] = useState(300 - Math.random() * 100); //how fast one letter come after the first
-  const period = 2000; //transition between each word
+  const [delta, setDelta] = useState(300 - Math.random() * 20); //how fast one letter come after the first
+  const period = 100; //transition between each word
   useEffect(() => {
     let ticker = setInterval(() => {
       tick();
@@ -40,7 +40,7 @@ const Banner = () => {
     setText(updatedText);
 
     if (isDeleting) {
-      setDelta((prevDelta) => prevDelta / 2);
+      setDelta((prevDelta) => prevDelta);
     }
 
     if (!isDeleting && updatedText === fullText) {
@@ -61,7 +61,7 @@ const Banner = () => {
     <section className="banner" id="home">
       <Container>
         <Row className="align-items-center">
-          <Col xs={12} md={8} xl={7}>
+          <Col xs={12} md={8} xl={7} >
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
@@ -92,7 +92,7 @@ const Banner = () => {
               )}
             </TrackVisibility>
           </Col>
-          <Col xs={12} md={4} xl={5}>
+          <Col xs={12} md={4} xl={5} className="a">
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
@@ -100,7 +100,9 @@ const Banner = () => {
                     isVisible ? "animate__animated animate__zoomIn" : ""
                   }
                 >
-                  <img src={bannerImg} alt="Headder Img"></img>
+                  <div className="banner-img-container">
+                  <img className="banner-img" src={bannerImg} alt="Headder Img"></img>
+                  </div>
                 </div>
               )}
             </TrackVisibility>
