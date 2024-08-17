@@ -1,5 +1,4 @@
 import React from "react";
-// import { FaCode, FaExternalLinkAlt } from "react-icons/fa";
 import musicApp from "../../assets/music-app.png";
 import marketApp from "../../assets/market-app.png";
 import organicApp from "../../assets/organic.jpg";

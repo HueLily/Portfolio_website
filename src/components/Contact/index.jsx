@@ -5,6 +5,7 @@ import githubIcon from "../../assets/github-icon.svg";
 import linkedin from "../../assets/linkedin.svg";
 import insta from "../../assets/insta.svg";
 import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 import "./index.css";
 
 const Contact = () => {
@@ -38,16 +39,19 @@ const Contact = () => {
             <Form className="form-container">
               <Form.Group className="mb-3" controlId="formGroupEmail">
                 <Form.Label>First and Last Name</Form.Label>
-                <Form.Control placeholder="Enter your first name and last name" />
+                <Form.Control placeholder="Lily Nguyen" />
               </Form.Group>
               <Form.Group className="mb-3" controlId="formGroupEmail">
                 <Form.Label>Email Address</Form.Label>
-                <Form.Control type="email" placeholder="Enter your email" />
+                <Form.Control type="email" placeholder="huethunguyen.lily@gmail.com" />
               </Form.Group>
               <Form.Group className="mb-3" controlId="formGroupPassword">
               <Form.Label>Leave me some messages</Form.Label>
-                <Form.Control placeholder="Enter messages" />
+                <Form.Control as="textarea" rows={4} placeholder="I'm looking for SWE Intern 2025" />
               </Form.Group>
+              <Button variant="info" className="contact-btn">
+                Submit
+              </Button>
             </Form>
           </Col>
           <Col md={6}>

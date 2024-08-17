@@ -71,7 +71,7 @@ export const Parallax = ({ projects }) => {
   );
 
   const rotateX = useSpring(
-    useTransform(scrollYProgress, [0, 0.2], [20, 0]),
+    useTransform(scrollYProgress, [0, 0.2], [35, 0]),
     springConfig
   );
   const opacity = useSpring(

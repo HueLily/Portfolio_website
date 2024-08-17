@@ -33,7 +33,7 @@
   display: inline-flex;
   line-height: 1;
   text-align: center;
-  margin: 20px;
+  margin: 50px 20px 20px 20px;
 }
 
 .social-media a::before {
@@ -90,4 +90,8 @@
   -webkit-backdrop-filter: blur(12.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.contact-btn {
+  margin: 20px 0 20px 0;
 }
