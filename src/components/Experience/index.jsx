@@ -8,7 +8,7 @@ const Experience = () => {
   const works = [
     {
       id: 1,
-      year: "12/2023 - PRESENT",
+      year: "05/2024 - 08/2024",
       title: "Technical Intern",
       location: " - Tenzer Technology Center",
       desc1:
@@ -17,7 +17,7 @@ const Experience = () => {
 
     {
       id: 2,
-      year: "12/2023 - PRESENT",
+      year: "08/2023 - Present",
       title: "Teaching Assistant",
       location: " - DePauw Computer Science Department",
       desc1:
@@ -36,7 +36,7 @@ const Experience = () => {
   const organization = [
     {
       id: 1,
-      year: "12/2023 - PRESENT",
+      year: "12/2023 - Present",
       title: "President",
       location: " - DePauw Women in Computer Science",
       desc1:
@@ -45,7 +45,7 @@ const Experience = () => {
 
     {
       id: 2,
-      year: "12/2023 - PRESENT",
+      year: "06/2024 - 08/2024",
       title: "Xplore Intern",
       location: " - TechPoint",
       desc1:

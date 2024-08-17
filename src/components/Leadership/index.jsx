@@ -1,8 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import wicsLogo from "../../assets/wics-logo.png";
 import wecodeLogo from "../../assets/wecode-logo.jpg";
+import ghcLogo from "../../assets/ghc.jpg";
+import xplore from "../../assets/xplore.jpg";
+import gwc from "../../assets/gwc.jpeg";
 import rtcLogo from "../../assets/rtc-logo.jpg";
-// import Carousel from "react-multi-carousel";
+import hackathon from "../../assets/hackathon.jpg";
+import wecode from "../../assets/wecode.jpg";
+import wicsExec from "../../assets/wics-exec.jpg";
+import tapia from "../../assets/tapia.jpg";
 import Carousel from "react-bootstrap/Carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./index.css";
@@ -23,8 +30,8 @@ const Leadership = () => {
     },
   ];
   const carouselStyle = {
-      height:'500px',
-  }
+    height: "450px",
+  };
 
   return (
     <section className="leadership" id="leadership">
@@ -33,47 +40,61 @@ const Leadership = () => {
         <Row>
           <Carousel indicators={false} data-bs-theme="dark">
             <Carousel.Item interval={2500} style={carouselStyle}>
-              {/* <img src={wicsEvent} className="carousel-img" /> */}
-              {/* <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </p>
-              </Carousel.Caption> */}
+              <img src={hackathon} className="carousel-img" />
+              <Carousel.Caption>
+                <h3>WiCS Tiger Hackathon</h3>
+              </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={2500} style={carouselStyle}>
-              {/* <img src={wicsEvent} className="carousel-img" /> */}
-              {/* <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </Carousel.Caption> */}
+              <img src={wecode} className="carousel-img" />
+              <Carousel.Caption>
+                <h3>WeCode Harvard 2024</h3>
+              </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={2500} style={carouselStyle}>
-              {/* <img src={wicsEvent} className="carousel-img" /> */}
-              {/* <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl
-                  consectetur.
-                </p>
-              </Carousel.Caption> */}
+              <img src={wicsExec} className="carousel-img" />
+              <Carousel.Caption>
+                <h3>WiCS Executive Boards</h3>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item interval={2500} style={carouselStyle}>
+              <img src={tapia} className="carousel-img" />
+              <Carousel.Caption>
+                <h3>Tapia Conference 2023</h3>
+              </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </Row>
         <Row>
           <div className="hexa gon">
-            <img className ="hexa-img" src={wecodeLogo} alt=""></img>
+            <img className="hexa-img" src={wicsLogo} alt=""></img>
           </div>
-          <div className="hexa gon"><img className ="hexa-img" src={wecodeLogo} alt=""></img></div>
-          <div className="hexa gon"><img className ="hexa-img" src={wecodeLogo} alt=""></img></div>
-          <div className="hexa gon"><img className ="hexa-img" src={wecodeLogo} alt=""></img></div>
-          <div className="hexa gon"><img className ="hexa-img" src={wecodeLogo} alt=""></img></div>
-          <div className="hexa gon"><img className ="hexa-img" src={wecodeLogo} alt=""></img></div>
+          <div className="hexa gon">
+            <img className="hexa-img" src={wecodeLogo} alt=""></img>
+          </div>
+          <div className="hexa gon">
+            <img className="hexa-img" src={ghcLogo} alt=""></img>
+          </div>
+          <div className="hexa gon">
+            <img className="hexa-img" src={xplore} alt=""></img>
+          </div>
+          <div className="hexa gon">
+            <img className="hexa-img" src={gwc} alt=""></img>
+          </div>
+          <div className="hexa gon">
+            <img className="hexa-img" src={rtcLogo} alt=""></img>
+          </div>
         </Row>
         <Row className="second-row">
-          <div className="hexa gon"><img className ="hexa-img" src={wecodeLogo} alt=""></img></div>
-          <div className="hexa gon"><img className ="hexa-img" src={wecodeLogo} alt=""></img></div>
-          <div className="hexa gon"><img className ="hexa-img" src={wecodeLogo} alt=""></img></div>
+          <div className="hexa gon">
+            <img className="hexa-img" src={wecodeLogo} alt=""></img>
+          </div>
+          <div className="hexa gon">
+            <img className="hexa-img" src={wecodeLogo} alt=""></img>
+          </div>
+          <div className="hexa gon">
+            <img className="hexa-img" src={wecodeLogo} alt=""></img>
+          </div>
         </Row>
       </Container>
     </section>

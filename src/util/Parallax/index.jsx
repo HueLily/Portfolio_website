@@ -35,8 +35,8 @@ export const ProjectCard = ({ project, translate }) => {
       <div className="project-item">
         <img src={project.img} className="project-image" />
         <div className="project-hover">
+          <h3 className="project-title">{project.title}</h3>
           <div className="project-afterhover">
-            <h3 className="project-title">{project.title}</h3>
             <span className="project-desc">{project.desc}</span>
             <div className="button-container">
               <Button variant="info" href={project.live} className="btn">

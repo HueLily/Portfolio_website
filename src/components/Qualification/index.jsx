@@ -55,8 +55,7 @@ const Qualification = () => {
             <p className="normal-para">
               I am a rising junior undergraduate pursuing Bachelors in Computer
               Science from DePauw University. My experience includes Web
-              Development and Android Development. I am enthusiastic to a rising junior undergraduate pursuing Bachelors
-              in Computer Science from DePauw Universitylearn
+              Development and Android Development. I am enthusiastic to expand my knowledge in
               full-stack web developing, security and cloud computing, and I am
               excited to learn new things.
             </p>
