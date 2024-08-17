@@ -55,12 +55,12 @@ const Contact = () => {
             </Form>
           </Col>
           <Col md={6}>
-            <h4>You are welcome to reach me through my email:</h4>
-            <h4 className="black">hue.lily.thunguyen@gmail.com</h4>
-            <h4>
+            <h5>You are welcome to reach me through my email:</h5>
+            <h3>huethunguyen.lily@gmail.com</h3>
+            <h5>
               Feel free to connect with me on social media and drop a messesage
               for me.
-            </h4>
+            </h5>
             <span className="navbar-text">
               <div className="social-media">
                 <a href="https://www.linkedin.com/in/hue-thu-nguyen-513a26256/">

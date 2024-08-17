@@ -8,8 +8,6 @@
 }
 
 .qualification h2 {
-  font-size: 40px;
-  font-weight: 700;
   margin-top: 50px;
   text-align: center;
   margin-top: 30px;
@@ -17,15 +15,11 @@
 }
 
 .qualification h3 {
-  font-size: 35px;
-  font-weight: 700;
   margin-top: 30px;
   margin-bottom: 20px;
 }
 
 .qualification h5 {
-  font-size: 25px;
-  font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -37,9 +31,6 @@
 }
 
 .qualification p {
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  line-height: 1.5rem;
   margin: 9px 0 9px 0;
   margin-bottom: 20px;
 }

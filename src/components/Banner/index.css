@@ -8,18 +8,11 @@
 }
 
 .banner h1 {
-  font-size: 52px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  line-height: 1;
   margin-bottom: 30px;
   display: block;
 }
 
 .banner p {
-  font-size: 20px;
-  letter-spacing: 1px;
-  line-height: 2rem;
   width: 96%;
   margin-bottom: 25px;
 }

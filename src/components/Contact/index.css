@@ -4,16 +4,19 @@
 }
 
 .contacts h2 {
-  font-size: 50px;
-  font-weight: 700;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 20px;
 }
-.contacts h4 {
-  font-size: 25px;
-  font-weight: 500;
+
+.contacts h5 {
   text-align: center;
+  line-height: 1.5;
+}
+
+.contacts h3 {
+  text-align: center;
+  line-height: 1.5;
 }
 
 .navbar-text {
@@ -75,10 +78,6 @@
 }
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
-}
-
-.black {
-  color: #000000;
 }
 
 .form-container {

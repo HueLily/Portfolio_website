@@ -7,28 +7,18 @@
 }
 
 .leadership h2 {
-  font-size: 50px;
-  font-weight: 700;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 20px;
 }
 
-.leadership h5 {
-  font-size: 25px;
-  font-weight: 700;
-}
-
 .leadership h3 {
-  font-size: 35px;
   margin-top: 30px;
   margin-bottom: 15px;
-  font-weight: 700;
 }
 
 .leadership p {
   padding: 2px;
-  font-size: 16px;
 }
 
 .carousel {
@@ -50,6 +40,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .gon:hover {

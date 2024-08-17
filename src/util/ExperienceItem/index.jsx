@@ -7,7 +7,7 @@ const ExperienceItem = ({year, title, location, desc1}) => {
         <div className="work-item">
             <div className="work-icon"><img src={suitcase} alt="" /></div>
             <span className="work-date">{year}</span>
-            <h3 className="work-title"><b>{title} {location}</b></h3>
+            <h4 className="work-title">{title} {location}</h4>
             <p className="work-desc">{desc1}</p>
         </div>
     )

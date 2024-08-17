@@ -87,7 +87,7 @@
 }
 
 .project-title {
-  font-size: 35px;
+  font-size: 40px;
   color: black;
   text-align: center;
   padding: 20px;
@@ -96,10 +96,11 @@
 .project-card:hover .project-title {
   opacity: 1;
 }
-/* 
-.project-desc {
 
-} */
+.project-desc {
+  padding: 20px;
+}
+
 .row {
   margin-right: 0;
   margin-left: 0;

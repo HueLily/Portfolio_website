@@ -40,7 +40,7 @@
 .work-date {
   padding: 2px 15px;
   border-radius: 20px;
-  font-size: 13px;
+  font-size: 12.5px;
   background: rgba(178, 180, 180, 0);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(20px);
@@ -49,7 +49,6 @@
 }
 
 .work-title {
-  font-size: 20px;
   margin-block: 20px 10px;
   color: #064aac;
 }
