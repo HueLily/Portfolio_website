@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import wicsLogo from "../../assets/wics-logo.png";
 import wecodeLogo from "../../assets/wecode-logo.jpg";
 import ghcLogo from "../../assets/ghc.jpg";
 import xplore from "../../assets/xplore.jpg";
@@ -67,7 +66,7 @@ const Leadership = () => {
         </Row>
         <Row>
           <div className="hexa gon">
-            <img className="hexa-img" src={wicsLogo} alt=""></img>
+            <img className="hexa-img" src={wecodeLogo} alt=""></img>
           </div>
           <div className="hexa gon">
             <img className="hexa-img" src={wecodeLogo} alt=""></img>
