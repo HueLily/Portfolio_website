@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import wicsEvent from "../../assets/wics-event.jpg";
 import wecodeLogo from "../../assets/wecode-logo.jpg";
 import rtcLogo from "../../assets/rtc-logo.jpg";
 // import Carousel from "react-multi-carousel";
@@ -12,15 +11,15 @@ const Leadership = () => {
   const activities = [
     {
       title: "WiCS",
-      imgUrl: wicsEvent,
+      imgUrl: "",
     },
     {
       title: "WiCS_Events",
-      imgUrl: wicsEvent,
+      imgUrl: "",
     },
     {
       title: "Tapia Conference",
-      imgUrl: wicsEvent,
+      imgUrl: "",
     },
   ];
   const carouselStyle = {
@@ -34,7 +33,7 @@ const Leadership = () => {
         <Row>
           <Carousel indicators={false} data-bs-theme="dark">
             <Carousel.Item interval={2500} style={carouselStyle}>
-              <img src={wicsEvent} className="carousel-img" />
+              {/* <img src={wicsEvent} className="carousel-img" /> */}
               {/* <Carousel.Caption>
                 <h3>First slide label</h3>
                 <p>
@@ -43,14 +42,14 @@ const Leadership = () => {
               </Carousel.Caption> */}
             </Carousel.Item>
             <Carousel.Item interval={2500} style={carouselStyle}>
-              <img src={wicsEvent} className="carousel-img" />
+              {/* <img src={wicsEvent} className="carousel-img" /> */}
               {/* <Carousel.Caption>
                 <h3>Second slide label</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </Carousel.Caption> */}
             </Carousel.Item>
             <Carousel.Item interval={2500} style={carouselStyle}>
-              <img src={wicsEvent} className="carousel-img" />
+              {/* <img src={wicsEvent} className="carousel-img" /> */}
               {/* <Carousel.Caption>
                 <h3>Third slide label</h3>
                 <p>

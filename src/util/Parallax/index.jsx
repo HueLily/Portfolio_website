@@ -6,11 +6,14 @@ import {
   useTransform,
 } from "framer-motion";
 import projects from "../../components/Project/index";
+import Button from "react-bootstrap/Button";
 import React, { useRef } from "react";
+import "./index.css";
+
 export const Header = () => {
   return (
     <div className="header">
-      <h1 className="header-title">Projects</h1>
+      <h2 className="header-title">Projects</h2>
     </div>
   );
 };
@@ -27,15 +30,29 @@ export const ProjectCard = ({ project, translate }) => {
         y: -20,
       }}
       key={project.title}
-      className="product-card"
+      className="project-card"
     >
-      <img src={project.img} className="product-image" alt={project.title} />
-
-      <div className="overlay"></div>
-      <h4 className="product-title">{project.title}</h4>
+      <div className="project-item">
+        <img src={project.img} className="project-image" />
+        <div className="project-hover">
+          <div className="project-afterhover">
+            <h3 className="project-title">{project.title}</h3>
+            <span className="project-desc">{project.desc}</span>
+            <div className="button-container">
+              <Button variant="info" href={project.live} className="btn">
+                Live
+              </Button>
+              <Button variant="dark" href={project.github} className="btn">
+                GitHub
+              </Button>
+            </div>
+          </div>
+        </div>
+      </div>
     </motion.div>
   );
 };
+
 export const Parallax = ({ projects }) => {
   const firstRow = projects.slice(0, 2);
   const secondRow = projects.slice(2, 4);
@@ -49,12 +66,12 @@ export const Parallax = ({ projects }) => {
   const springConfig = { stiffness: 300, damping: 30, bounce: 100 };
 
   const translateX = useSpring(
-    useTransform(scrollYProgress, [0, 0], [0, 0]),
+    useTransform(scrollYProgress, [0, 1], [0, 0]),
     springConfig
   );
-  
+
   const rotateX = useSpring(
-    useTransform(scrollYProgress, [0, 0.2], [60, 0]),
+    useTransform(scrollYProgress, [0, 0.2], [20, 0]),
     springConfig
   );
   const opacity = useSpring(
@@ -66,12 +83,13 @@ export const Parallax = ({ projects }) => {
     springConfig
   );
   const translateY = useSpring(
-    useTransform(scrollYProgress, [0, 0.2], [-500, 600]),
+    useTransform(scrollYProgress, [0, 0.2], [-500, 500]),
     springConfig
   );
 
   return (
     <div id="parallax" ref={ref} className="parallax">
+      <Header />
       <motion.div
         style={{
           rotateX,
@@ -119,7 +137,6 @@ export const Parallax = ({ projects }) => {
             />
           ))}
         </motion.div>
-        
       </motion.div>
     </div>
   );
