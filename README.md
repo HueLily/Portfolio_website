@@ -1,4 +1,6 @@
-# React + Vite
+# SWE Portfolio
+
+Welcome to my Software Engineering Portfolio! This repository presents and hightlights my journey as a Computer Science major. This portfolio features my work, experience, technical skills, projects and activities that I have completed and I am developing.   
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
