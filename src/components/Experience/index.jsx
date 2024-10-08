@@ -8,11 +8,11 @@ const Experience = () => {
   const works = [
     {
       id: 1,
-      year: "05/2024 - 08/2024",
-      title: "Technical Intern",
-      location: " - Tenzer Technology Center",
+      year: "08/2024 - Present",
+      title: "Full-stack Software Engineer",
+      location: " - FinBud AI Company",
       desc1:
-        "Direct 17+ executive board members to build WiCS Linkedin and conduct 10 workshops and support members engage in 4 conferences, achieving a 170% increase in members",
+        "Developed a full-stack financial app using AI power to track stock on real-time, get personalized trade suggestions, and financial guidance by AI Chatbot, implement APIs to provide users with financial news and economic trends",
     },
 
     {
@@ -21,15 +21,16 @@ const Experience = () => {
       title: "Teaching Assistant",
       location: " - DePauw Computer Science Department",
       desc1:
-        "Direct 17+ executive board members to build WiCS Linkedin and conduct 10 workshops and support members engage in 4 conferences, achieving a 170% increase in members",
+        "Assisted professors in introducing the course using Java, dedicated 4 hours weekly to hosting office hours, and mentored 60 students through fundamental concepts, facilitating 20+ hands-on coding exercises and projects",
     },
 
     {
-      id: 3,
-      year: "05/2023 - 08/2023",
-      title: "Front-end Developer Intern",
-      location: " - FPT Software",
-      desc1: "Created 17 functionalities in the user interface by using JavaScript, HTML/CSS, and implemented React to optimize components for maximum reusability, resulting in a 20% decrease in load time post-optimization efforts",
+      id: 1,
+      year: "05/2024 - 08/2024",
+      title: "Technical Intern",
+      location: " - Tenzer Technology Center",
+      desc1:
+        "Developed responsive user interfaces that integrated advanced client-side scripting techniques using JavaScript, HTML and CSS, resulting in a 15% increase in validation accuracy and user interactivity",
     },
   ];
 
@@ -40,7 +41,7 @@ const Experience = () => {
       title: "President",
       location: " - DePauw Women in Computer Science",
       desc1:
-        "Direct 17+ executive board members to build WiCS Linkedin and conduct 10 workshops and support members engage in 4 conferences, achieving a 170% increase in members",
+        "Direct 17+ executive board members to build WiCS Linkedin and 12 workshops, 2 Hackathon competitions, a Capture the Flag contest and support members engage in 4 conferences, achieving a 170% increase in members",
     },
 
     {
